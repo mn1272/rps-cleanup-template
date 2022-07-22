@@ -6,7 +6,10 @@ from random import choice
 
 valid_choices = ["rock","paper","scissors"]
 
+def winner(user_choice, computer_choice):
+    return "OOPS - TODO"
 
+if __name__ == "__main__":
 
 #
 # USER SELECTION
@@ -49,3 +52,4 @@ elif u == "scissors" and c == "paper":
     print("The user wins")
 elif u == "scissors" and c == "scissors":
     print("It's a tie!")
+
